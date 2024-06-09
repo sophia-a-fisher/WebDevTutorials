@@ -1,0 +1,118 @@
+body, h1, p, h2, a, ul, li {
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(187, 187, 139);
+}
+
+nav {
+    display: flex;
+    flex-direction: inline;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background-color: azure;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    background-color: bisque;
+}
+
+p{
+    text-align: center;
+}
+
+button {
+    padding: 8px;
+    margin: 10px;
+}
+
+section h1 {
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 2px;
+    width: 90px;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: beige;
+    color: blue;
+}
+
+aside {
+    /* background-color: aqua; */
+    width: 30%;
+    float: left;
+    height: 200px;
+    /* padding: 10px; */
+}
+
+aside ul {
+    list-style: none;
+    margin: 0;
+}
+
+aside h2 {
+    padding: 5px;
+}
+
+article {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: aquamarine;
+    width: 70%;
+    float: left;
+    height: 200px;
+}
+
+footer {
+    display: flex;
+    flex-direction: inline;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+    background-color: rgb(154, 127, 86);
+    height: 90px
+}
+
+footer a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+footer a:hover {
+    color: blue;
+}
+
+.post {
+    background: white;
+    width: 90%;
+}
+
+.post p {
+    text-align: left;
+    padding: 5px;
+
+}

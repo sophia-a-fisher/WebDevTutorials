@@ -1,0 +1,30 @@
+#plus {
+    color: green;
+}
+
+#minus {
+    color: red;
+}
+
+#reset {
+    color: rgb(53, 135, 229);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrap {
+    text-align: center;
+    background-color: rgb(208, 250, 236);
+    padding: 10px;
+}
+
+.wrap h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+}

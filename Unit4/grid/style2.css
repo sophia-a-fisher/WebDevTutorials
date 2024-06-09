@@ -1,0 +1,27 @@
+.my-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.item {
+    height: 100px;
+}
+
+@media screen and (min-width:600px) {
+    .my-container {
+        grid-template-columns: 1fr 1fr; 
+    }
+}
+
+@media screen and (min-width:900px) {
+    .my-container {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .my-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+    }
+}

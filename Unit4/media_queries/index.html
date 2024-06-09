@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+
+    <style>
+        body {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .box {
+            padding: 20px;
+            margin: 10px;
+        }
+
+        /* Goal is to do something different if large screen detected or small screen */
+
+        @media screen and (min-width: 1200px) {
+            .box {
+                background-color: darkblue;   
+            }
+        }
+
+        @media screen and (max-width: 1199px) and (min-width: 768px) {
+            .box {
+                background-color: rgb(48, 48, 130);   
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            .box {
+                background-color: rgb(108, 108, 142);   
+            }
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Media Queries</h1>
+
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo animi cum cumque, unde nihil iste facilis optio fugit enim temporibus non vitae ipsum soluta molestiae explicabo nisi veritatis inventore? Harum.</p>
+    </div>
+    
+</body>
+</html>

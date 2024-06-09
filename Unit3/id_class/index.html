@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+
+        div {
+            margin-top: 10px;
+        }
+
+        /* Targetting using ID */
+        #div1 {
+            background: rgb(129, 129, 210);
+        }
+
+        #div2 {
+            background: rgb(129, 210, 153);
+        }
+
+        #div3 {
+            background: rgb(210, 129, 167);
+        }
+
+        /* Targetting using class */
+        .my-border {
+            border: 5px solid;
+            color: rgb(128, 82, 22);
+        }
+
+        /* Applies to all divs */
+        /* div {
+            background-color: red;
+        } */
+
+    </style>
+
+    <h1>The best website ever</h1>
+
+    <!-- ID must be unique per element -->
+    <!-- Class can be shared by multiple -->
+    <!-- Group elements -->
+    <div id="div1" class="my-border">
+        <h1>Hello World</h1>
+        <p>Welcome to my website.</p>
+        <a href="">Learn More</a>
+    </div>
+
+    <div id="div2" class="my-border">
+        <h1>This is my form</h1>
+        <em>Plea login</em>
+        <form action="">
+            <input type="text">
+            <input type="text">
+            <button>Submit</button>
+        </form>
+    </div>
+
+    <div id="div3">
+        <h2>Last div</h2>
+    </div>
+
+    
+</body>
+</html>

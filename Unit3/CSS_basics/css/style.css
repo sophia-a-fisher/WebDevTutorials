@@ -1,0 +1,26 @@
+/* These styles only apply to those html files that have a link to this */
+/* Targetting the body for styling */
+body {
+    background: rgb(226, 237, 221);
+}
+
+h1 {
+    background: green;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    /* color: rgb(26, 15, 2); */
+    /* text-shadow: 1px 1px black; */
+}
+
+a {
+    color: rgb(145, 42, 152);
+    /* text-decoration: none; */
+}
+
+/* Setting up an event for when hovered over */
+a:hover {
+    color: aquamarine;
+}

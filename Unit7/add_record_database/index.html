@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>API: Adding Record to Database</h2>
+
+    <form id="myForm">
+        <input type="text" name="cheeseName" placeholder="Enter cheese">
+        <br>
+        <br>
+        <input type="text" name="descript" placeholder="Enter description">
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody id="dataHolder">
+
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-top: 15px;
+            padding: 15px;
+        }
+
+    </style>
+</body>
+</html>

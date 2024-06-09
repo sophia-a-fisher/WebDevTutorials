@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Jacquard+12&display=swap');
+
+* {
+    font-family: 'Caveat','Ariel';
+    font-size: larger;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: beige;
+}
+
+.container {
+    background: rgb(15, 88, 41);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    padding: 20px;
+    
+}
+
+.container h1 {
+    color: white; 
+}
+
+#title {
+    font-size: 1.6rem;
+}
+
+.myButtons button {
+    padding-right: 15px;
+}
+
+#mins, #secs, #colon {
+    font-size: 4.8rem;
+}
+
+#secs {
+    padding-right: 15px;
+}
+
+#start, #stop, #reset {
+    cursor: pointer;
+}
+
+#start:hover, #stop:hover, #reset:hover {
+    background: rgb(250, 241, 219);
+}

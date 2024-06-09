@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    font-family: 'Bebas Neue';
+}
+
+.myButtons {
+    padding: 20px;
+}
+
+.myButtons button {
+    font-weight: bold;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 2px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.displayBox {
+    height: 50px;
+    width: 250px;
+    background-color: rgb(83, 167, 139);
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.displayBox h3 {
+    color: rgb(230, 249, 243);
+    font-size: 2rem;
+}
