@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Exo 2';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Exo 2','Ariel';
+    background: rgb(126, 126, 172);
+}
+
+.mydivs {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#btn1, #btn2, #btn3, #btn4 {
+    visibility: hidden;
+    position: absolute;
+}
+
+.arrow-down::after{
+    content: '';
+    width: 40px;
+    height: 40px;
+    /* background-color: aqua; */
+    position: absolute;
+    margin: auto;
+    top: 40rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-right: 4px solid rgba(255, 255, 255, .3);
+    border-bottom: 4px solid rgba(255, 255, 255, .3);
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+

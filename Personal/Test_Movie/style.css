@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Noto Serif','Ariel';
+}
+
+#title {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+#MPAA {
+    border: 1.7px solid black;
+    padding: 1.5px;
+    border-radius: 1.8px;
+}
+
+#metrics, #categories {
+    margin: 15px;
+}
+
+#description {
+    margin: 15px;
+}
+
+#container{
+    width: 50%;
+    height: 100%;
+}
+
+#image-blurred-edge {
+    background-image: url('https://m.media-amazon.com/images/M/MV5BZmYzMTBmYzEtMTc2NC00MDBkLThiNzEtNDY0ZDI2N2Y1NGVkXkEyXkFqcGdeQXVyMjUyNDk2ODc@._V1_.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 90px 10px rgb(37, 25, 16) inset;
+    border: none;
+    margin-top: none;
+    display: flex;
+}
+
+#tick {
+    background-image: url('https://www.hollywoodreporter.com/wp-content/uploads/2021/10/TTB_20201112_09340r-H-2021.jpg?crop=191px%2C46px%2C1071px%2C599px&resize=2000%2C1126');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 90px 10px rgb(37, 25, 16) inset;
+    border: none;
+    margin-top: none;
+    display: flex;
+}
+
+#promo {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.promoImg:after {
+    content: "";
+    display: block;
+    border: 3px solid rgba(240, 234, 239, 1);
+    padding: 2px;
+    transform: scale(1.1,1.01);
+}
+
+.card {
+    display: flex;
+    border-radius: 5px;
+    background: white;
+    margin: 15px;
+    height: 400px;
+    box-shadow: 2px 2px 6px .5px rgb(57, 47, 47);
+    border: 3px solid rgba(255, 255, 255,.02);
+    transition: background-color 1s;
+    transition: transform 1.5s;
+}
+
+.card:hover {
+    background: rgb(240, 234, 239);
+    /* margin: 14px; */
+    transform: scale(.995);
+    
+}
+
+body {
+    height: 100vh;
+    background: rgb(228, 202, 217);
+    margin: 0;
+}
+
+hr {
+    margin: 15px;
+}
+
+#tomato {
+    height: 16px;
+    width: 16px;
+    background-image: url('tomato.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-right: 2px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+#IMDBimg{
+     height: 16px;
+     width: 38px;
+     background-image: url('cinema.png');
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center center;
+     margin-right: 2px;
+     margin-left: 5px;
+     display: inline-block;
+     margin-left: 12px;
+}
+
+#Year {
+    margin-left: 3px;
+    margin-right: 2px;
+}
+
+#navigation {
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+#home {
+    background: none;
+    border: none;
+    font-size: 150%;
+    display: inline-block;
+    width: 500px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+#home {
+    cursor: pointer;
+}
+
+#logo {
+
+    height: 50px;
+    width: 50px;
+    background-image: url('stave.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-left: 20px;
+    margin-right: 10px; 
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+#discoveryBtn {
+    text-align: center;
+    font-size: 110%;
+    background: none;
+    border: none;
+    margin-left: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    transition: padding-bottom .1s;
+}
+
+#discoveryContainer {
+    height: 100%;
+    width: 50px;
+}
+
+#discoveryBtn:hover {
+    cursor: pointer;
+    padding-bottom: 3px;
+}
+
+#newsContainer {
+    height: 100%;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+#newsBtn:hover {
+    cursor: pointer;
+    padding-bottom: 3px;
+}
+
+#newsBtn {
+    text-align: center;
+    font-size: 110%;
+    height: 30%;
+    background: none;
+    border: none;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+    transition: padding-bottom .1s;
+}
+
+#searchBox {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#search {
+    height: 30%;
+    width: 40%;
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+#search:hover {
+    background: rgb(240, 234, 239)
+}
+
+/* Todo come back here */
+#collectionSearch {
+
+    height: 25px;
+    width: 25px;
+    background-image: url('archive.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-right: 10px;
+    margin-left: 5px;
+    transition: height .08s;
+    transition: width .08s;
+}
+
+#collectionSearch:hover {
+    height: 26px;
+    width: 26px;
+    cursor: pointer;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    background: rgb(37, 25, 16);
+    justify-content: center;
+    height: 150px;
+}
+
+#attribute {
+    color: rgb(240, 234, 239);
+    font-style: none;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+#attribute:hover {
+    padding-bottom: 3px;
+    margin: 100px solid rgb(37, 25, 16);
+}
