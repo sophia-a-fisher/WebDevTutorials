@@ -41,6 +41,10 @@
     display: flex;
 }
 
+#card_link{
+    display: hidden;
+}
+
 #tick {
     background-image: url('https://www.hollywoodreporter.com/wp-content/uploads/2021/10/TTB_20201112_09340r-H-2021.jpg?crop=191px%2C46px%2C1071px%2C599px&resize=2000%2C1126');
     background-repeat: no-repeat;
@@ -131,6 +135,7 @@ hr {
     height: 15%;
     display: flex;
     align-items: center;
+    background-color: rgb(228, 202, 217);
 }
 
 #home {
@@ -266,4 +271,25 @@ hr {
 #attribute:hover {
     padding-bottom: 3px;
     margin: 100px solid rgb(37, 25, 16);
+}
+
+/* Todo come back here */
+#piano_icon {
+
+    height: 25px;
+    width: 25px;
+    background-image: url('piano.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-right: 10px;
+    margin-left: 5px;
+    transition: height .08s;
+    transition: width .08s;
+}
+
+#piano_icon:hover {
+    height: 26px;
+    width: 26px;
+    cursor: pointer;
 }

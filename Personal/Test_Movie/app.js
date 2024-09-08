@@ -18,6 +18,18 @@ let imgCard;
 const lightPink = 'rgb(228, 202, 217)';
 const lightGrey = 'rgb(240, 234, 239)';
 
+const indv_link = document.querySelector('#card_link');
+infoCard.forEach(element => {
+    addEventListener('click', () => {
+        indv_link.click();
+    })
+});
+
+const piano_icon = document.querySelector('#piano_icon');
+piano_icon.addEventListener('click', () => {
+    
+});
+
 let advancedSearchOpen = false;
 
 function clearAdvancedYear(){

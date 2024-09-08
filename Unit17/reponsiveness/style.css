@@ -12,12 +12,14 @@ body {
     height: auto;
     padding-top: 50px;
     /* background-color: red; */
+    background-color: rgb(202, 202, 228);
 }
 
 .content {
     width: 100vw;
     height: auto;
     padding-top: 60px;
+    padding-left: 30%;
 }
 
 .container {
@@ -93,7 +95,7 @@ body {
 
 .wrap-black {
     background-color: rgb(34,31,31);
-    width: 60%;
+    width: 30%;
     max-width: 480px;
     transition-delay: .2s;
 }
